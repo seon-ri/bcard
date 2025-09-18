@@ -201,18 +201,25 @@ margin-top: 4px;
                 min-height: 300px;
             }
              .contact-section {
-    flex-direction: column;      /* 세로 배치 */
+    flex-direction: row;      /* 세로 배치 */
     align-items: flex-start;     /* 왼쪽 정렬 */
+   justify-content: space-between;
+    gap: 10px;                        /* 간격만 줄이기 */
   }
   .qr-section {
     margin-top: 10px;            /* 연락처 아래로 조금만 */
     align-self: center;          /* 화면 중앙 배치 */
+      width: 56px; 
   }
-            .action-buttons {
+     .action-buttons {
                 position: static;
                 justify-content: center;
                 margin-top: 15px;
             }
+  .action-btn{
+    font-size: 9px;
+    padding: 3px 10px;
+  } 
         }
 
         .click-effect {
